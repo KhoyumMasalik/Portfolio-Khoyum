@@ -245,6 +245,7 @@ span {
 .education {
     background: var(--second-bg-color);
 }
+
 .education h2 {
     margin-bottom: 5rem;
 }
@@ -471,6 +472,10 @@ span {
         padding-bottom: 7rem;
     }
 
+    .education {
+        padding-bottom: 7rem;
+    }
+
     .portofolio {
         padding-bottom: 7rem;
     }
@@ -546,10 +551,9 @@ span {
         margin-bottom: 3rem;
     }
 
-    .services-container {
+    .education-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 2rem;
     }
 
     .portofolio h2 {
@@ -570,9 +574,10 @@ span {
     .services-container {
         grid-template-columns: 1fr;
     }
-        .education-container {
-            grid-template-columns: 1fr;
-        }
+
+    .education-container {
+        grid-template-columns: 1fr;
+    }
 
 }
 
