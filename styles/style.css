@@ -363,6 +363,10 @@ span {
     color: var(--second-bg-color);
 }
 
+.portofolio-layer a i:hover {
+    color: var(--main-color);
+}
+
 /* contact */
 .contact {
     background: var(--second-bg-color);
