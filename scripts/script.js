@@ -46,16 +46,28 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
-ScrollReveal().reveal('.home-img, .services-container, .education-container, .portofolio-box, .contact form', {origin: 'bottom'});
-ScrollReveal().reveal('.home-content h1, .about-img',  {origin: 'left'});
-ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .services-container, .education-container, .portofolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // typed
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Web Developer', 'Student Of Wikrama' ],
+    strings: ['Frontend Developer', 'Web Developer', 'Student Of Wikrama'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
 });
+
+alert('Selamat Datang TEMAN');
+var lagi = true;
+
+while (lagi === true) {
+    var nama = prompt('Masukan nama:');
+    alert('Hallo ' + nama);
+
+    lagi = confirm('Masukan nama lagi?...');
+}
+
+alert('Terima Kasih')
