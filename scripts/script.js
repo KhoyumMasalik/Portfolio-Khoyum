@@ -60,14 +60,14 @@ const typed = new Typed('.multiple-text', {
     loop: true
 });
 
-alert('Selamat Datang TEMAN');
+alert('Welcome To My Portfolio');
 var lagi = true;
 
 while (lagi === true) {
-    var nama = prompt('Masukan nama:');
+    var nama = prompt("Enter a name : ");
     alert('Hallo ' + nama);
 
-    lagi = confirm('Masukan nama lagi?...');
+    lagi = confirm("Want to enter your name again??...");
 }
 
-alert('Terima Kasih')
+alert('Thank You')
